@@ -1,0 +1,65 @@
+/* src/index.css */
+
+/* Satoshi Light */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/Satoshi-Light.woff2') format('woff2'); /* Ensure path matches where you put the file in /public */
+  font-weight: 300; /* Light */
+  font-style: normal;
+  font-display: swap; 
+}
+
+/* Satoshi Regular */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/Satoshi-Regular.woff2') format('woff2'); /* Ensure path matches where you put the file in /public */
+  font-weight: 400; /* Regular */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Satoshi Italic (Regular Italic, if it exists) */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/Satoshi-Italic.woff2') format('woff2'); /* Ensure path matches where you put the file in /public */
+  font-weight: 400; /* Regular */
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Satoshi Medium */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/Satoshi-Medium.woff2') format('woff2'); /* Ensure path matches where you put the file in /public */
+  font-weight: 500; /* Medium */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Satoshi Bold */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/Satoshi-Bold.woff2') format('woff2'); /* Ensure path matches where you put the file in /public */
+  font-weight: 700; /* Bold */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Satoshi Black */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/Satoshi-Black.woff2') format('woff2'); /* Ensure path matches where you put the file in /public */
+  font-weight: 900; /* Black */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* --- Tailwind CSS Directives (KEEP THESE BELOW YOUR FONT-FACE RULES) --- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply Satoshi to the body globally */
+body {
+  font-family: 'Satoshi', sans-serif;
+}
